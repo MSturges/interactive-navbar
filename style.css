@@ -1,0 +1,29 @@
+.mobile {
+  display: none;
+  background-color: rgb(1, 159, 187);
+
+}
+
+.deskTop {
+  display: block;
+  background-color: rgb(121, 255, 242);
+}
+
+a {
+  text-align: center;
+  color: rgb(195, 124, 221)
+}
+
+button {
+  float:right;
+}
+
+
+@media screen and (max-width: 600px){
+  .mobile{
+    display: block;
+  }
+  .deskTop{
+    display: none;
+  }
+}
